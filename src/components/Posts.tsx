@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import User from "./User";
-
-interface Address {
-  street: string;
-  city: string;
-}
-export interface IUser {
-  id: number;
-  name: string;
-  address: Address;
-  //   address: {
-  //     street: string;
-  //     city: string;
-  //   };
-}
+import { Address, IUser } from "../interfaces/users";
+// interface Address {
+//   street: string;
+//   city: string;
+// }
+// export interface IUser {
+//   id: number;
+//   name: string;
+//   address: Address;
+//   //   address: {
+//   //     street: string;
+//   //     city: string;
+//   //   };
+// }
 
 const Posts: React.FC = () => {
   // Hooks

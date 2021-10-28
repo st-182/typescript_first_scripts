@@ -1,5 +1,5 @@
 import React from "react";
-import { IUser } from "./Posts";
+import { IUser } from "../interfaces/users";
 // interfaces
 interface Props {
   user: object;
